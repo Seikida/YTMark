@@ -5,7 +5,7 @@ A YouTube video bookmark manager – Technical demo for Sébastien &amp; Gary
 
 Create an `.env` file 
 
-## Clerk
+### Clerk
 
 Don't forget to add your Clerk environment variables
 
@@ -16,7 +16,7 @@ NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 ```
 
-## Neon
+### Neon
 
 Don't forget to add your Neon environment variables:
 
