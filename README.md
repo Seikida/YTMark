@@ -1,13 +1,18 @@
+**⚠️ Warning:** This project is currently in **active development** and is **not yet functional**. The codebase is unstable, features are incomplete, and breaking changes may occur without notice.  
+
 # YTmark
 A YouTube video bookmark manager – Technical demo for Sébastien &amp; Gary
 
-## .env
+## Setup
+
+### .env
 
 Create an `.env` file 
 
 ### Clerk
 
-Don't forget to add your Clerk environment variables
+1. Create an account on [clerk.com](https://clerk.com/) 
+2. Then don't forget to add your Clerk environment variables in the `.env` file
 
 ```
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_***
@@ -18,7 +23,8 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 ### Neon
 
-Don't forget to add your Neon environment variables:
+1. Create an account on [neon.tech](https://neon.tech/)
+2. Then don't forget to add your Neon environment variables in the `.env` file
 
 ```
 DATABASE_URL=postgresql://*****
@@ -50,6 +56,8 @@ npx drizzle-kit push
 ```
 
 ## Drizzle Studio
+
+Run this command:
 
 ```
 npx drizzle-kit studio
